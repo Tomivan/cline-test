@@ -1,7 +1,7 @@
 import React from 'react';
 import { Icon } from '@mdi/react';
 import { mdiArrowExpand, mdiFaceWoman, mdiEyeOutline, mdiClose, mdiTwitter, mdiInstagram, mdiPlayOutline, 
-    mdiArrowDownDropCircleOutline, mdiArrowRightThick, mdiAbacus } from '@mdi/js';
+    mdiArrowDownDropCircleOutline, mdiArrowRightThick } from '@mdi/js';
 import yoga from "../../assets/images/yoga.png";
 import midnight from '../../assets/images/midnight.jpeg'
 import './home.css';
