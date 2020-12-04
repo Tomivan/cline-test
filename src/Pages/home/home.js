@@ -5,10 +5,12 @@ import { mdiArrowExpand, mdiFaceWoman, mdiEyeOutline, mdiClose, mdiTwitter, mdiI
 import yoga from "../../assets/images/yoga.png";
 import midnight from '../../assets/images/midnight.jpeg'
 import './home.css';
+import Logout from '../logout/logout';
 
 const Home = () => {
     return (
         <div>
+             <Logout />
             <section className="left">
                 <div className="images">
                     <img src={yoga} alt="A woman doing yoga" className="yoga"/>

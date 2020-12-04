@@ -37,3 +37,15 @@ input {
     padding: .7em ;
     border: 1px solid #0000001e;
 }
+.button{
+    border: none;
+    border-radius: 5px;
+    margin: 5% 0 0 25%;
+    height: 4vh;
+    width: 15vw;
+    background: blue;
+    color: #ffffff;
+}
+.or{
+    text-align: center;
+}
