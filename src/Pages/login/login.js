@@ -1,11 +1,12 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
+import { navigate } from '@reach/router';
 import './login.css';
 
 const Login = () =>{
     const {handleSubmit, handleChange, register} = useForm([]);
     const login = () =>{
-
+        navigate(`/home`)
     }
     return(
         <div>
