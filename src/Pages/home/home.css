@@ -4,17 +4,20 @@ body{
     box-sizing: border-box;
     background: #D1E4C4;
 }
-.left, .middle, .right{
+p{
+    font-size: 12px;
+}
+.left{
     margin: 10%;
 }
 .yoga{
-    width: 20%;
-    height: 70vh;
-    border: 8px;
+    width: 20vw;
+    height: 65vh;
+    border-radius: 20px;
 }
 .expand{
-    background: #ffffff;
-    /* opacity: 0.3; */
+    background: #a3a3a3;
+    opacity: 0.8;
     border-radius: 50%;
     position: absolute;
     margin: 3% 0 0 -3.5%;
@@ -22,13 +25,190 @@ body{
 .views{
     display: flex;
     position: absolute;
-    margin-left: 10%;
+    margin-left: 14%;
     margin-top: -5%;
 }
-.views p{
+.views p, .views-1 p{
     color: #ffffff;
 }
 .eye{
     margin-top: 20%;
     padding-right: .5em;
+}
+.white-box{
+    position: absolute;
+    width: 20%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-top: -2%;
+    height: 13vh;
+}
+.hr{
+    width: 10%;
+    background: .5px solid #cccccc;
+}
+.info{
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+    margin-top: -7%;
+}
+.info-left p, .top-info p{
+    margin-top: -12%;
+}
+.info-right{
+    margin-top: 10%;
+}
+.woman{
+    background: #55B67F;
+    border-radius: 50%;
+}
+.middle{
+    margin: -46% 0 0 35%;
+}
+.top-white-box, .bottom-white-box{
+    background: #ffffff;
+    width: 30%;
+    border-radius: 20px;
+    padding: .8em;
+}
+.top{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #f3f3f3;
+    padding: .5em;
+
+}
+.top-info{
+    display: flex;
+    flex-direction: column;
+    margin-top: -7%;
+    margin-left: -5%;
+}
+.top-info p:nth-child(3){
+    color: green;
+}
+.close{
+    background-color: #000000;
+    opacity: 0.3;
+    border-radius: 50%;
+}
+.center{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -5%;
+}
+.middle-info p{
+    margin-top: -30%;
+}
+.bottom-white-box{
+    margin-top: 5%;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #f3f3f3;
+    padding: .5em;
+    border-radius: 10px;
+}
+.twitter{
+    padding-right: .5em;
+}
+.follow{
+    background: #EC705C;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    width: 7vw;
+}
+.option{
+    display: flex;
+    margin-top: -7%;
+}
+.red{
+    border: 1px solid red;
+    margin-left: 2%;
+    padding: .3em;
+    border-radius: 5px;
+}
+.red-x{
+    padding-left: .5em;
+}
+.midnight{
+    width: 3vw;
+    height: 4vh;
+    border-radius: 10px;
+}
+.audio{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #f3f3f3;
+    padding: .5em;
+    border-radius: 10px;
+}
+.audio-info{
+    margin-top: -8%;
+    margin-left: -18%;
+}
+.audio-info p{
+    margin-top: -15%;
+}
+.audio-play{
+    border: 1px solid red;
+    border-radius: 50%;
+    margin: 5%;
+}
+.right{
+    margin-left: 60%;
+    margin-top: -41.5%;
+}
+.play{
+    background: #a3a3a3;
+    opacity: 0.8;
+    border-radius: 50%;
+    position: absolute;
+    margin: 10% 0 0 -12%;
+}
+.views-1{
+    display: flex;
+    position: absolute;
+    margin-left: 14%;
+    margin-top: -21%;
+}
+.right-white-box{
+    background: #ffffff;
+    width: 18.5vw;
+    border-radius: 20px;
+    padding: .8em;
+    position: absolute;
+    margin-top: -18%;
+}
+.comment{
+    display: flex;
+}
+.right-info{
+    display: flex;
+    padding: .5em;
+    justify-content: space-between;
+    margin-top: -7%;
+}
+.extra-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -5%;
+}
+.comment-info{
+    margin: -3% 0 0 5%;
+}
+input{
+    border: none;
+    border-radius: 5px;
+    width: 16vw;
+}
+.arrow{
+    margin-left: -12%;
+}
+.yoga-1{
+    background: rgba(0,0,0,0.5);
+    z-index: 2;
 }
